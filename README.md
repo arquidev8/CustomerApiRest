@@ -1,6 +1,6 @@
 
 
-# Laravel API de Servicio de Gestión de Clientes
+# Laravel API Servicio de Gestión de Clientes
 
 Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clientes a través de una API. Permite a los usuarios registrarse, iniciar sesión, agregar clientes, ver clientes, eliminar clientes y más.
 
