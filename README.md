@@ -68,6 +68,41 @@ DELETE /v1/customers/{dni}: Eliminar un cliente mediante su DNI.
 POST /v1/regions: Agregar una nueva región.
 POST /v1/communes: Agregar una nueva comuna.
 
+## Uso de la Api
+
+## Paso 1
+
+Crear un usuario a traves de POST /register: Registro de usuarios.
+
+## Paso 2
+
+Obtener token de autenticacion a traves de POST /login: Registro de usuarios.
+
+## Paso 3
+
+Agregar una Region mediante POST /v1/regions: Agregar una nueva región.
+
+## Paso 4
+
+Agregar Commune mediante POST /v1/communes: Agregar una nueva commune.
+
+## Paso 5
+
+Agregar Customer mediante POST /v1/customers: Agregar un nuevo customer.
+
+## Paso 6
+
+Obtener lista de Customers mediante GET /v1/customers: Obtener la lista de todos los Customers.
+
+## Paso 7
+
+Obtener detalle de Customers mediante GET /v1/customers/{identifier}: Obtener detalles de un Customer específico a traves de su DNI o EMAIL.
+
+## Paso 8
+
+Eliminar un Customer mediante DELETE /v1/customers/{dni}: Eliminar un cliente mediante su DNI.
+
+
 
 Requerimientos del Sistema
 PHP >= 8.1
