@@ -12,16 +12,16 @@ Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clien
 git clone https://github.com/tu-usuario/tu-proyecto.git
 
 
-Instala las dependencias del proyecto usando Composer:
+## Instala las dependencias del proyecto usando Composer:
 
 composer install
 
 
-<p>Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno según tu entorno de desarrollo:</p>
+## Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno según tu entorno de desarrollo:
 
 php artisan key:generate
 
-Configura tu base de datos en el archivo .env:
+## Configura tu base de datos en el archivo .env:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -30,7 +30,8 @@ DB_DATABASE=nombre_base_datos
 DB_USERNAME=usuario_db
 DB_PASSWORD=contraseña_db
 
-<p>Ejecuta las migraciones para crear las tablas en la base de datos:</p>
+
+## Ejecuta las migraciones para crear las tablas en la base de datos:
 
 php artisan migrate
 
@@ -38,30 +39,30 @@ php artisan serve
 
 # Laravel API de Servicio de Gestión de Clientes
 
-<p>Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clientes a través de una API. Permite a los usuarios registrarse, iniciar sesión, agregar clientes, ver clientes, eliminar clientes y más.</p>
+## Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clientes a través de una API. Permite a los usuarios registrarse, iniciar sesión, agregar clientes, ver clientes, eliminar clientes y más.
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
+## Clona este repositorio en tu máquina local:
 
 
-git clone https://github.com/tu-usuario/tu-proyecto.git
+git clone https://github.com/arquidev8/CustomerApiRest.git
 
-Instala las dependencias del proyecto usando Composer:
+## Instala las dependencias del proyecto usando Composer:
 
 composer install
 
-<p>Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno según tu entorno de desarrollo:</p>
+## Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno según tu entorno de desarrollo:
 
 cp .env.example .env
 
 
-Genera una nueva clave de aplicación:
+## Genera una nueva clave de aplicación:
 
 php artisan key:generate
 
 
-<p>Configura tu base de datos en el archivo .env:</p>
+## Configura tu base de datos en el archivo .env:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -70,19 +71,18 @@ DB_DATABASE=nombre_base_datos
 DB_USERNAME=usuario_db
 DB_PASSWORD=contraseña_db
 
-<p>Ejecuta las migraciones para crear las tablas en la base de datos:</p>
+## Ejecuta las migraciones para crear las tablas en la base de datos:
 
 php artisan migrate
 
-Inicia el servidor de desarrollo:
+## Inicia el servidor de desarrollo:
 
 php artisan serve
 
 
+# Uso
 
-<p>Uso</p>
-
-<p>La API se puede utilizar para:</p>
+## La API se puede utilizar para:
 
 Registro de Usuarios: La ruta /register permite a los usuarios registrarse en la plataforma.
 
