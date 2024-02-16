@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
         User::create([
             'name' => 'Test User',
             'email' => 'test2@example.com',
-            'password' => Hash::make('knownPassword'), // La contraseña es 'knownPassword'
+            'password' => Hash::make('password'), 
         ]);
     }
 }

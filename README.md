@@ -9,41 +9,6 @@ Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clien
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/arquidev8/CustomerApiRest.git
-
-
-## Instala las dependencias del proyecto usando Composer:
-
-composer install
-
-
-## Copia el archivo .env.example y renómbralo a .env. Luego, configura las variables de entorno según tu entorno de desarrollo:
-
-php artisan key:generate
-
-## Configura tu base de datos en el archivo .env:
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=nombre_base_datos
-DB_USERNAME=usuario_db
-DB_PASSWORD=contraseña_db
-
-
-## Ejecuta las migraciones para crear las tablas en la base de datos:
-
-php artisan migrate
-
-php artisan serve
-
-# Laravel API de Servicio de Gestión de Clientes
-
-## Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clientes a través de una API. Permite a los usuarios registrarse, iniciar sesión, agregar clientes, ver clientes, eliminar clientes y más.
-
-## Instalación
-
-## Clona este repositorio en tu máquina local:
 
 
 git clone https://github.com/arquidev8/CustomerApiRest.git
