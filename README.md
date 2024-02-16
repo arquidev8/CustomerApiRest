@@ -9,7 +9,7 @@ Este proyecto utiliza Laravel para proporcionar un servicio de gestión de clien
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-proyecto.git
+git clone https://github.com/arquidev8/CustomerApiRest.git
 
 
 ## Instala las dependencias del proyecto usando Composer:
